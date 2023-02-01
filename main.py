@@ -19,4 +19,4 @@ if __name__=='__main__':
     processes.load(data_trans,url_sql)
 
     data_from_sql = processes.consult_sql_recent_tracks(url_sql)
-    data_from_sql.to_csv("rencent_tracks.csv", index=False)
+    data_from_sql.to_csv("data/rencent_tracks.csv", index=False)
