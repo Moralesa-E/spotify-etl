@@ -2,7 +2,7 @@
 ## Description
 ETL process of data obtained from the spotify api, using the Spotipy library, and loading the data to a Mysql database
 
-## Unstuctions
+## Instuctions
 - run "pip install requirements.txt" on the command line, preferably in a virtual environment
 - Add the access keys in an .env file
 - run the program from main.py
